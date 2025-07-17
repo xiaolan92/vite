@@ -8,11 +8,6 @@ export const App: FC = () => {
 
     return (
         <>
-            <div>
-                <a href="https://react.dev" target="_blank">
-                    <img src={reactLogo} className="logo react" alt="React logo"/>
-                </a>
-            </div>
             <h1 className="text-3xl font-bold bg-[red]">Vite + React</h1>
             <div className="card">
                 <button onClick={() => setCount((count) => count + 1)}>
